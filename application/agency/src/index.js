@@ -1,13 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import Notes from 'notes-rd/core';
 
-import App from './App';
+const Application = ({ title = 'empty prop' }) => (
+    <div>
+        <h1>{title}</h1>
+        <Notes>Package Button</Notes>
+    </div>
+)
 
-const title = 'Agency Application';
-
-ReactDOM.render(
-    <App title={title} />,
-    document.getElementById('app')
-);
-
-module.hot.accept();
+export default Application;
