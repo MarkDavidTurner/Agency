@@ -1,6 +1,6 @@
 {
     "name": "notes-rd",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "main": "index.js",
     "module": "src/index.js",
     "dependencies": {
