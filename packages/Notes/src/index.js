@@ -16,7 +16,7 @@ const StyledWrapper = styled.button`
 const Notes = ({children}) => {
     return (
         <StyledWrapper>
-            <h1>Notes Component</h1>
+            <h1>Notes Component 01</h1>
             <p>{children}</p>
         </StyledWrapper>
     )
