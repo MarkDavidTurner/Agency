@@ -11,7 +11,8 @@
         "clean:build": "lerna exec -- rimraf lib",
         "bootstrap": "lerna bootstrap --use-workspaces",
         "start": "lerna exec --scope application -- npm start",
-        "storybook": "start-storybook -p 5555"
+        "storybook": "start-storybook -p 5555",
+        "prepare": "yarn clean:build && yarn build"
     },
     "devDependencies": {
         "@babel/cli": "^7.10.5",
