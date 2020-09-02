@@ -22,4 +22,4 @@ const Notes = ({children}) => {
     )
 }
 
-export default Button;
+export default Notes;

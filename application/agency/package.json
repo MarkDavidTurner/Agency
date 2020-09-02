@@ -22,5 +22,10 @@
         "react": "^16.13.0",
         "react-dom": "^16.13.0"
     },
+    "peerDependencies": {
+        "notes-rd": "^1.0.8",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0"
+    },
     "gitHead": "4475a1f3ee48441ac00345e149aaeef4c6f5dd59"
 }

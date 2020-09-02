@@ -21,5 +21,5 @@ var Notes = function Notes(_ref) {
   return /*#__PURE__*/_react["default"].createElement(StyledWrapper, null, /*#__PURE__*/_react["default"].createElement("h1", null, "Notes Component 01"), /*#__PURE__*/_react["default"].createElement("p", null, children));
 };
 
-var _default = Button;
+var _default = Notes;
 exports["default"] = _default;
