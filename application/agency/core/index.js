@@ -2,16 +2,20 @@
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
 var _react = _interopRequireDefault(require("react"));
 
-var _reactDom = _interopRequireDefault(require("react-dom"));
+var _core = _interopRequireDefault(require("notes-rd/core"));
 
-var _App = _interopRequireDefault(require("./App"));
+var Application = function Application(_ref) {
+  var _ref$title = _ref.title,
+      title = _ref$title === void 0 ? 'empty prop' : _ref$title;
+  return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("h1", null, title), /*#__PURE__*/_react["default"].createElement(_core["default"], null, "Package Button"));
+};
 
-var title = 'Agency Application';
-
-_reactDom["default"].render( /*#__PURE__*/_react["default"].createElement(_App["default"], {
-  title: title
-}), document.getElementById('app'));
-
-module.hot.accept();
+var _default = Application;
+exports["default"] = _default;

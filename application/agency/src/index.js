@@ -4,7 +4,7 @@ import Notes from 'notes-rd/core';
 const Application = ({ title = 'empty prop' }) => (
     <div>
         <h1>{title}</h1>
-        <Notes>Package Button</Notes>
+        <Notes>Package Notes</Notes>
     </div>
 )
 

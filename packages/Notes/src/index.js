@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const StyledWrapper = styled.button`
+const StyledWrapper = styled.div`
     background: #1ea7fd;
     color: #fff;
     border-radius: 4px;
