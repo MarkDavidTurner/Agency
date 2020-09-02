@@ -1,6 +1,6 @@
 {
     "name": "application-spa",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "",
     "main": "core/index.js",
     "scripts": {
