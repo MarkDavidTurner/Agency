@@ -1,5 +1,5 @@
 {
-    "name": "notes",
+    "name": "notes-rd",
     "version": "1.0.3",
     "files": [
         "lib"
@@ -14,5 +14,5 @@
         "react-dom": "^16.0.0",
         "styled-components": "^4.0.0"
     },
-    "gitHead": "b48d41eeb660a8e0c20168fbad02d01082caeb53"
+    "gitHead": "4475a1f3ee48441ac00345e149aaeef4c6f5dd59"
 }
