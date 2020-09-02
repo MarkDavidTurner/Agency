@@ -1,5 +1,5 @@
 import React from 'react';
-import Notes from 'notes-rd';
+import Notes from 'notes-rd/core';
 
 const App = ({ title }) => (
     <div>
