@@ -9,11 +9,11 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _button = _interopRequireDefault(require("button"));
+var _notes = _interopRequireDefault(require("notes"));
 
 var App = function App(_ref) {
   var title = _ref.title;
-  return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("h1", null, title), /*#__PURE__*/_react["default"].createElement(_button["default"], null, "Package Button"));
+  return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("h1", null, title), /*#__PURE__*/_react["default"].createElement(_notes["default"], null, "Package Button"));
 };
 
 var _default = App;
