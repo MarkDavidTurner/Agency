@@ -1,5 +1,5 @@
 # Using packages
-In order to use package we should add it as a dependency on the package.json file. The yarn command is:
+In order to use a package we should add it as a dependency on the package.json file. The yarn command is:
 ```sh
 yarn workspace @application/<Application Name> add @packages/<Package Name>@1.0.0
 ```
