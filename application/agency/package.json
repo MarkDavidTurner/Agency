@@ -1,6 +1,6 @@
 {
     "name": "application-spa",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "",
     "main": "core/index.js",
     "scripts": {
@@ -18,7 +18,7 @@
         "webpack-dev-server": "^3.10.3"
     },
     "dependencies": {
-        "notes-rd": "^1.0.8",
+        "notes-rd": "^1.0.9",
         "react": "^16.13.0",
         "react-dom": "^16.13.0"
     },
