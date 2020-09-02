@@ -12,7 +12,7 @@
         "bootstrap": "lerna bootstrap --use-workspaces",
         "start": "lerna exec --scope application-spa -- npm start",
         "storybook": "start-storybook -p 5555",
-        "prepare": "yarn clean:build && yarn build"
+        "prepare": "yarn clean:build &&  yarn bootstrap && yarn build"
     },
     "devDependencies": {
         "@babel/cli": "^7.10.5",
