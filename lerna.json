@@ -1,5 +1,5 @@
 {
-    "packages": ["application-spa/*", "packages/*"],
+    "packages": ["application/*", "packages/*"],
     "npmClient": "yarn",
     "useWorkspaces": true,
     "version": "independent"
