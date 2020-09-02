@@ -19,7 +19,8 @@
     },
     "dependencies": {
         "react": "^16.13.0",
-        "react-dom": "^16.13.0"
+        "react-dom": "^16.13.0",
+        "notes-rd": "~1.0.7"
     },
     "gitHead": "4475a1f3ee48441ac00345e149aaeef4c6f5dd59"
 }
